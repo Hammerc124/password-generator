@@ -6,7 +6,7 @@ function getPassword() {
     var uppercaseABC = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     var lowercaseABC = "abcdefghijklmnopqrstuvwxyz";
     var numeric = "0123456789";
-    var symbols = "!@#$%^&*()_-+=<>?";
+    var symbols = "!@#$%^&*_-+=<>?";
     var mulitSelect = "";
     var randomKey = "";
 // 
@@ -14,6 +14,63 @@ function getPassword() {
         "Your password must be between 8 to 128 characters, enter your desired length."
     );
 }
+
+// return window for passwords not set in criteria
+if (keyLength < 8 || keyLength > 128 || isNaN(keyLength)) {
+    alert("your password does not meet the criteria. Password must be between 8 to 128 characters. Please try again!");
+    return;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Write password to the #password input
 function writePassword() {
