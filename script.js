@@ -33,7 +33,7 @@ if (specialSymbols) {multiSelect += symbols;}
 
 // added loop to repeat if criteria isn't met that will end when password is created
 for (i = 0; i < keyLength; i++) {
-        randomKey += multiSelect[Math.floor(Math.random() * mulitSelect.length)]
+        randomKey += multiSelect[Math.floor(Math.random() * multiSelect.length)]
     }
     return(randomKey);
 }
