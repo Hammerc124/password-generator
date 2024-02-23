@@ -22,8 +22,8 @@ if (keyLength < 8 || keyLength > 128 || isNaN(keyLength)) {
 } else {
     var upperAlpha = confirm("Do you want to include UPPERCASE characters in the password? Click confirm.");
     var lowerAlpha = confirm("Do you want to include lowercase characters in the password? Click confirm.");
-    var numericOptions = confirm("Do you want to include numbers in the password? Click confirm");
-    var specialSymbols = confirm("Do you want special characters(<!$&) in the password? Click confirm");
+    var numericOptions = confirm("Do you want to include numbers in the password? Click confirm.");
+    var specialSymbols = confirm("Do you want special characters(<!$&) in the password? Click confirm.");
 } 
 
 if (upperAlpha) {multiSelect += uppercaseABC;}
